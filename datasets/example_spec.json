@@ -1,0 +1,10 @@
+[
+  {
+    "path": "datasets/wisdm/phone_accel_user_1600.csv",
+    "name": "WISDM-1600",
+    "source": "WISDM",
+    "mapping": {"time": "timestamp", "subject": "user", "label": "activity",
+                "acc": ["x", "y", "z"], "acc_unit": "m/s2"},
+    "label_map": {"Walking": "walking", "Jogging": "running", "Sitting": "sitting", "Standing": "standing"}
+  }
+]
